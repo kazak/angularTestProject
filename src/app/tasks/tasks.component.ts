@@ -14,7 +14,7 @@ export class TasksComponent {
     currentTask  = '';
     newComment   = '';
     // mock user
-    user = {name: 'User', avatar: '/assets/avatars/1.png'};
+    user = {name: 'User', avatar: 'assets/avatars/1.png'};
 
     // Listan keydown to save comment
     onKeyDown(event) {
